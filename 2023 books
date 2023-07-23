@@ -1,0 +1,207 @@
+/* Create table for books read so far in 2023 */
+CREATE TABLE books (
+id INTEGER PRIMARY KEY,
+title TEXT, 
+author TEXT,
+genre TEXT,
+my_rating INTEGER,
+goodreads_rating INTEGER);
+
+INSERT INTO books VALUES (1, "Cruel Reign", "Helen Scott", "dark contemporary romance", 4, 4.32);
+INSERT INTO books VALUES (2, "Ruined Dynasty", "Helen Scott", "dark contemporary romance", 4, 4.31);
+INSERT INTO books VALUES (3, "Heartless", "Elsie Silver", "contemporary romance", 5, 4.4);
+INSERT INTO books VALUES (4, "Off to the Races", "Elsie Silver", "contemporary romance", 3, 3.94);
+INSERT INTO books VALUES (5, "The Billionaire", "Marni Mann", "contemporary romance", 3, 4.14); 
+INSERT INTO books VALUES (6, "The Single Dad", "Marni Mann", "contemporary romance", 3, 4.18);
+INSERT INTO books VALUES (7, "The Intern", "Marni Mann", "contemporary romance", 4, 4.03);
+INSERT INTO books VALUES (8, "5 Rounds", "Nikki Castle", "sports romance", 4, 4.08);
+INSERT INTO books VALUES (9, "Start a War", "Elle Thorpe", "dark contemporary romance", 3, 4.32);
+INSERT INTO books VALUES (10, "Half the Battle", "Elle Thorpe", "dark contemporary romance", 3, 4.35);
+INSERT INTO books VALUES (11, "Mile High", "Liz Tomforde", "contemporary romance", 5, 4.22);
+INSERT INTO books VALUES (12, "The Ex Files", "Morgan Elizabeth", "contemporary romance", 4, 3.8);
+INSERT INTO books VALUES (13, "Walking Red Flag", "Morgan Elizabeth", "contemporary romance", 2, 3.9);
+INSERT INTO books VALUES (14, "Filthy Rich", "Serena Akeroyd", "dark contemporary romance", 4, 4.04);
+INSERT INTO books VALUES (15, "Offside", "Avery Keelan", "sports romance", 2, 3.94);
+INSERT INTO books VALUES (16, "Black Ties and White Lies", "Kat Singleton", "dark contemporary romance", 3, 3.77);
+INSERT INTO books VALUES (17, "Unassuming Queen", "Kylie Kent", "dark contemporary romance", 5, 4.36);
+INSERT INTO books VALUES (18, "United Reign", "Kylie Kent", "dark contemporary romance", 4, 4.35);
+INSERT INTO books VALUES (19, "Brutal Princess", "Kylie Kent", "dark contemporary romance", 5, 4.47);
+INSERT INTO books VALUES (20, "Chosen by a Sinner", "Michelle Heard", "dark contemporary romance", 3, 4.01);
+INSERT INTO books VALUES (21, "Owned by a Sinner", "Michelle Heard", "dark contemporary romance", 3, 3.94);
+INSERT INTO books VALUES (22, "Stolen by a Sinner", "Michelle Heard", "dark contemporary romance", 3, 4.04);
+INSERT INTO books VALUES (23, "Captured by a Sinner", "Michelle Heard", "dark contemporary romance", 4, 4.17);
+INSERT INTO books VALUES (24, "Her Greatest Mistake", "Hannah Cowan", "sports romance", 4, 4);
+INSERT INTO books VALUES (25, "The Love of my Next Life", "Brit Benson", "dark contemporary romance", 2, 4.2);
+INSERT INTO books VALUES (26, "Better with You", "Brit Benson", "sports romance", 5, 4.19);
+INSERT INTO books VALUES (27, "Nothing Feels Better", "Brit Benson", "contemporary romance", 5, 4.45);
+INSERT INTO books VALUES (28, "Compel", "Candice Wright", "dark contemporary romance", 4, 4.14);
+INSERT INTO books VALUES (29, "Make Me", "Summer O'Toole", "dark contemporary romance", 4, 3.67);
+INSERT INTO books VALUES (30, "Broken Whispers", "Neva Altaj", "dark contemporary romance", 3, 4.02);
+INSERT INTO books VALUES (31, "2 Fights", "Nikki Castle", "sports romance", 5, 4.17);
+INSERT INTO books VALUES (32, "3 Count", "Nikki Castle", "sports romance", 4, 4.28);
+INSERT INTO books VALUES (33, "Twisted Lies", "Ana Huang", "dark contemporary romance", 5, 4.26);
+INSERT INTO books VALUES (34, "The Words", "Ashley Jade", "dark contemporary romance", 5, 4.37);
+INSERT INTO books VALUES (35, "The Choice", "Ashley Jade", "dark contemporary romance", 5, 4.43);
+INSERT INTO books VALUES (36, "Cruel Prince", "Ashley Jade", "dark contemporary romance", 2, 3.96);
+INSERT INTO books VALUES (37, "Ruthless Knight", "Ashley Jade", "dark sports romance", 4, 4.31);
+INSERT INTO books VALUES (38, "Broken Kingdom", "Ashley Jade", "dark contemporary romance", 5, 4.45);
+INSERT INTO books VALUES (39, "Destroy Me", "Michelle Heard", "dark contemporary romance", 4, 3.92);
+INSERT INTO books VALUES (40, "Control Me", "Michelle Heard", "dark contemporary romance", 4, 4.15);
+INSERT INTO books VALUES (41, "Anton", "Brenda Rothert", "sports romance", 4, 3.79);
+INSERT INTO books VALUES (42, "Between Commitment and Betrayal", "Shain Rose", "sports romance", 2, 3.86);
+INSERT INTO books VALUES (43, "Corrupted Chaos", "Shain Rose", "dark contemporary romance", 4, 4.04);
+INSERT INTO books VALUES (44, "Fractured Freedom", "Shain Rose", "dark contemporary romance", 2, 3.82);
+INSERT INTO books VALUES (45, "Shattered Vows", "Shain Rose", "dark contemporary romance", 2, 3.75);
+INSERT INTO books VALUES (46, "Darling Venom", "Parker S. Huntington", "dark contemporary romance", 4, 4.35);
+INSERT INTO books VALUES (47, "Devious Lies", "Parker S. Huntington", "dark contemporary romance", 3, 4.03);
+INSERT INTO books VALUES (48, "Throttled", "Lauren Asher", "sports romance", 4, 3.85);
+INSERT INTO books VALUES (49, "Collided", "Lauren Asher", "sports romance", 2, 3.87);
+INSERT INTO books VALUES (50, "Wrecked", "Lauren Asher", "sports romance", 4, 4.18);
+INSERT INTO books VALUES (51, "Redeemed", "Lauren Asher", "sports romance", 5, 4.43);
+INSERT INTO books VALUES (52, "Nanny for the Neighbors", "Lily Gold", "contemporary romance", 3, 4.01);
+INSERT INTO books VALUES (53, "The Walls we Break", "Katelyn Taylor", "sports romance", 4, 4.26);
+INSERT INTO books VALUES (54, "In a Jam", "Kate Canterbary", "contemporary romance", 5, 4.03);
+INSERT INTO books VALUES (55, "Boss in the Bedsheets", "Kate Canterbary", "contemporary romance", 4, 4.04);
+INSERT INTO books VALUES (56, "The Belle and the Beard", "Kate Canterbary", "contemporary romance", 4, 4.04);
+INSERT INTO books VALUES (57, "The Right Move", "Liz Tomforde", "sports romance", 5, 4.48);
+INSERT INTO books VALUES (58, "Give me More", "Sara Cate", "contemporary romance", 4, 4.25);
+INSERT INTO books VALUES (59, "The Magnolia Chronicles", "Kate Canterbary", "contemporary romance", 5, 4);
+INSERT INTO books VALUES (60, "The Worst Guy", "Kate Canterbary", "contemporary romance", 3, 4.04);
+INSERT INTO books VALUES (61, "Coastal Elite", "Kate Canterbary", "contemporary romance", 3, 4.01);
+INSERT INTO books VALUES (62, "Undying Resilience", "Elira Firethorn", "dark contmporary romance", 4, 4.03);
+INSERT INTO books VALUES (63, "Wretched Corruption", "Elira Firethorn", "dark contemporary romance", 4, 4.05);
+INSERT INTO books VALUES (64, "Heathens", "Sheridan Anne", "dark contemporary romance", 4, 4.36);
+INSERT INTO books VALUES (65, "Savages", "Sheridan Anne", "dark contemporary romance", 4, 4.5);
+INSERT INTO books VALUES (66, "Maniacs", "Sheridan Anne", "dark contemporary romance", 5, 4.48);
+INSERT INTO books VALUES (67, "The Locker Room", "Meghan Quinn", "sports romance", 3, 4.09);
+INSERT INTO books VALUES (68, "The Dugout", "Meghan Quinn", "sports romance", 3, 4.31);
+INSERT INTO books VALUES (69, "The Strike Out", "Meghann Quinn", "sports romance", 4, 4.22);
+INSERT INTO books VALUES (70, "The Sixty/Forty Rule", "Ellie K. Wilde", "contemporary romance", 4, 3.9);
+INSERT INTO books VALUES (71, "The No-Judgement Zone", "Ellie K. Wilde", "contemporary romance", 4, 4.03);
+INSERT INTO books VALUES (72, "Pucking Around", "Emily Rath", "sports romance", 3, 4.07);
+INSERT INTO books VALUES (73, "Soulless Devil", "Kylie Kent", "dark contemporary romance", 4, 4.36);
+INSERT INTO books VALUES (74, "Meet Me Halfway", "Lillian T. James", "contemporary romance", 2, 3.95);
+INSERT INTO books VALUES (75, "Until I Get You", "Claire Contreras", "dark sports romance", 5, 4.14);
+INSERT INTO books VALUES (76, "Kaleidoscope Hearts", "Claire Contreras", "contemporary romance", 3, 4.03);
+INSERT INTO books VALUES (77, "The Temporary Wife", "Catharina Maura", "contemporary romance", 4, 4.08);
+INSERT INTO books VALUES (78, "Breakaway", "Grace Reilly", "sports romance", 3, 3.91);
+INSERT INTO books VALUES (79, "Stealing Home", "Grace Reilly", "sports romance", 2, 3.77);
+INSERT INTO books VALUES (80, "Cruel Promise", "Ketley Allison", "dark contemporary romance", 4, 3.84);
+INSERT INTO books VALUES (81, "Poison Flower", "Steffanie Holmes", "dark contemporary romance", 5, 4.26);
+INSERT INTO books VALUES (82, "Poison Kiss", "Steffanie Holmes", "dark contemporary romance", 5, 4.2);
+INSERT INTO books VALUES (83, "Grumpy Romance", "Nia Arthurs", "romantic comedy", 4, 3.66);
+INSERT INTO books VALUES (84, "Always my Comfort", "Taylor Jade", "sports romance", 1, 3.46);
+INSERT INTO books VALUES (85, "Holdout", "Jacqueline Snowe", "sports romance", 4, 3.71);
+INSERT INTO books VALUES (86, "My Dark Romeo", "Parker S. Huntington", "dark contemporary romance", 2, 3.9);
+INSERT INTO books VALUES (87, "King of Pride", "Ana Huang", "contemporary romance", 4, 4.02);
+INSERT INTO books VALUES (88, "The Interview", "Donna Alam", "contemporary romance", 2, 3.67);
+INSERT INTO books VALUES (89, "Dear Love, I Hate You", "Eliah Greenwood", "sports romance", 4, 4.02);
+INSERT INTO books VALUES (90, "The Sinner", "Shantel Tessier", "dark contemporary romance", 4, 4.06);
+INSERT INTO books VALUES (91, "The Sacrifice", "Shantel Tessier", "dark contemporary romance", 5, 4.28);
+INSERT INTO books VALUES (92, "Sabotage", "Shantel Tessier", "dark contemporary romance", 4, 3.76);
+INSERT INTO books VALUES (93, "Done and Dusted", "Lyla Sage", "contemporary romance", 3, 4.07);
+INSERT INTO books VALUES (94, "Indigo Ridge", "Devney Perry", "romantic suspense", 4, 4.2);
+INSERT INTO books VALUES (95, "Marriage of Sin", " B. B. Hamel", "dark contemporary romance", 4, 4.15);
+INSERT INTO books VALUES (96, "The Brightest Light of Sunshine", "Lisina Coney", "contemporary romance", 3, 3.89);
+INSERT INTO books VALUES (97, "The Risk", "S.T. Abby", "dark contemporary romance", 5, 4.28);
+INSERT INTO books VALUES (98, "Scarlet Angel", "S.T. Abby", "dark contemporary romance", 5, 4.41);
+INSERT INTO books VALUES (99, "All the Lies", "S.T. Abby", "dark contemporary romance", 5, 4.54);
+INSERT INTO books VALUES (100, "Black Sunshine", "Karina Halle", "fantasy romance", 2, 3.74);
+INSERT INTO books VALUES (101, "The Unwanted Marriage", "Catharina Maura", "contemporary romance", 4, 4.11);
+INSERT INTO books VALUES (102, "Promises and Pomegranates", "Sav R. Miller", "fantasy romance", 2, 3.53);
+INSERT INTO books VALUES (103, "Fifth Avenue Fling", "Rosa Lucas", "romantic comedy", 3, 3.96);
+INSERT INTO books VALUES (104, "The Devil's Revelation", "Emily Rose", "contemporary romance", 4, 4.15);
+INSERT INTO books VALUES (105, "Cruel Summer", "Morgan Elizabeth", "contemporary romance", 4, 4.04);
+INSERT INTO books VALUES (106, "Wicked Heir", "Mila Kane", "dark contemporary romance", 4, 3.6);
+INSERT INTO books VALUES (107, "Recipe for Love", "Anne Malcolm", "contemporary romance", 4, 3.69);
+INSERT INTO books VALUES (108, "Pretty Dark Vows", "Callie Rose", "dark contemporary romance", 3, 4.26);
+INSERT INTO books VALUES (109, "Pretty Wicked Secrets", "Callie Rose", "dark contemporary romance", 2, 4.34);
+
+
+/* Create a table of series read in 2023. Only include series in which I read >1 book */
+CREATE TABLE series (
+id INTEGER PRIMARY KEY,
+series_title TEXT,
+author TEXT);
+
+INSERT INTO series VALUES (1, "Sweetest Revenge", "Helen Scott");
+INSERT INTO series VALUES (2, "The Dalton Family", "Marni Mann");
+INSERT INTO series VALUES (3, "The Fight Game", "Nikki Castle");
+INSERT INTO series VALUES (4, "Saint View Psychos", "Elle Thorpe");
+INSERT INTO series VALUES (5, "Windy City Series", "Liz Tomforde");
+INSERT INTO series VALUES (6, "Ocean View", "Morgan Elizabeth");
+INSERT INTO series VALUES (7, "Valentino Empire", "Kylie Kent");
+INSERT INTO series VALUES (8, "The Sinners", "Michelle Heard");
+INSERT INTO series VALUES (9, "Better Love", "Brit Benson");
+INSERT INTO series VALUES (10, "Royal Hearts Academy", "Ashley Jade");
+INSERT INTO series VALUES (11, "Corrupted Royals", "Michelle Heard");
+INSERT INTO series VALUES (12, "Tarnished Empire", "Shain Rose");
+INSERT INTO series VALUES (13, "Dirty Air", "Lauren Asher");
+INSERT INTO series VALUES (14, "Ruthless Desires", "Elira Firethorn");
+INSERT INTO series VALUES (15, "Depraved Sinners", "Sheridan Anne");
+INSERT INTO series VALUES (16, "Sunset Landing", "Ellie K. Wilde");
+INSERT INTO series VALUES (17, "The Windsors", "Catharina Maura");
+INSERT INTO series VALUES (18, "Beyond the Play", "Grace Reilly");
+INSERT INTO series VALUES (19, "Stonehurst Prep Elite", "Steffanie Holmes");
+INSERT INTO series VALUES (20, "Mindf*ck", "S.T. Abby");
+INSERT INTO series VALUES (21, "Ruthless Hearts", "Callie Rose");
+
+
+/* How many books have I read in each genre? */
+SELECT COUNT(*), genre FROM books GROUP BY genre;
+
+/* How many books and series have I read from each author? */
+SELECT books.author, series.series_title, COUNT(*) AS author_total FROM books JOIN series ON books.id = series.id GROUP BY books.author ORDER BY books.author;
+
+/* Change the dark contemporary romance genre to be dark romance, and correct any typos */
+UPDATE books SET genre = "dark romance" WHERE genre = "dark contemporary romance";
+UPDATE books SET genre = "dark romance" WHERE genre = "dark contmporary romance";
+
+/* Check the update to genre */
+SELECT * FROM books;
+
+/* What books did I rate less than 3? */
+SELECT author, title, my_rating FROM books WHERE my_rating < 3 ORDER BY author;
+
+/* Arrange books by my_rating with the title "reread" and categories for yes, maybe, and no. Titles with a rating >= 4 should be yes, 3 should be maybe, and anything below 3 should be no */
+SELECT author, title,
+    CASE
+        WHEN my_rating >= 4 THEN "yes"
+        WHEN my_rating = 3 THEN "maybe"
+        ELSE "no"
+    END as "reread"
+FROM books;
+
+/* What books did I rate higher than goodreads rating? */
+SELECT author, title, my_rating, goodreads_rating FROM books WHERE my_rating > goodreads_rating ORDER BY author;
+
+/* What was the average rating I gave for each genre? */
+SELECT genre, AVG(my_rating) AS avg_rating FROM books GROUP BY genre ORDER BY avg_rating DESC;
+
+/* Add a column for series title in the books table. Make sure it is a nullable column, and only include series in which I read >1 book */
+ALTER TABLE books ADD series_name TEXT default "standalone";
+
+UPDATE books SET series_name = "Sweetest Revenge" WHERE id = 1 AND 2;
+UPDATE books SET series_name = "The Dalton Family" WHERE id = 5 AND 6 AND 7;
+UPDATE books SET series_name = "The Fight Game" WHERE id = 8 AND 31 AND 32;
+UPDATE books SET series_name = "Saint View Psychos" WHERE id = 9 AND 10;
+UPDATE books SET series_name = "Windy City" WHERE id = 11 AND 57;
+UPDATE books SET series_name = "Ocean View" WHERE id = 12 AND 13;
+UPDATE books SET series_name = "Valentino Empire" WHERE id = 17 AND 18 AND 19;
+UPDATE books SET series_name = "The Sinners" WHERE id = 20 AND 21 AND 22 AND 23;
+UPDATE books SET series_name = "Better Love" WHERE id = 26 AND 27;
+UPDATE books SET series_name = "Royal Hearts Academy" WHERE id = 36 AND 37 AND 38;
+UPDATE books SET series_name = "Corrupted Royals" WHERE id = 39 AND 40;
+UPDATE books SET series_name = "Tarnished Empire" WHERE id = 43 AND 44 AND 45;
+UPDATE books SET series_name = "Dirty Air" WHERE id = 48 AND 49 AND 50 AND 51;
+UPDATE books SET series_name = "Ruthless Desires" WHERE id = 62 AND 63;
+UPDATE books SET series_name = "Depraved Sinners" WHERE id = 64 AND 65 AND 66;
+UPDATE books SET series_name = "Sunset Landing" WHERE id = 70 AND 71;
+UPDATE books SET series_name = "The Windsors" WHERE id = 77 AND 101;
+UPDATE books SET series_name = "Beyond the Play" WHERE id = 78 AND 79;
+UPDATE books SET series_name = "Stonehurst Prep Elite" WHERE id = 81 AND 82;
+UPDATE books SET series_name = "Mindf*ck" WHERE id = 97 AND 98 AND 99;
+UPDATE books SET series_name = "Ruthless Hearts" WHERE id = 108 AND 109;
+
+/* What was each author's average rating (mine and goodreads)? Order the results by author */
+SELECT author, AVG(my_rating), AVG(goodreads_rating) FROM books GROUP BY author ORDER BY author;
