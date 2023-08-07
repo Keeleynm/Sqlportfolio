@@ -1,0 +1,282 @@
+/* Create a table for 2021 Spotify top songs */
+CREATE TABLE firstSpotify_wrapped (
+id INTEGER PRIMARY KEY,
+name TEXT,
+artist TEXT, 
+genre TEXT);
+
+INSERT INTO firstSpotify_wrapped VALUES (1, "Yours", "Ella Henderson", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (2, "Kiwi", "Harry Styles", "Rock");
+INSERT INTO firstSpotify_wrapped VALUES (3, "STUPID", "Ashnikko", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (4, "Woman", "Harry Styles", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (5, "INDUSTRY BABY", "Lil Nas X", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (6, "If You Don't Wanna Love Me", "Suzy Jones", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (7, "Be the One", "Sinead Harnett", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (8, "Carolina", "Harry Styles", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (9, "Dear Mama", "2Pac", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (10, "Tears of Gold", "Faouzia", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (11, "Hold On To Me", "Lauren Daigle", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (12, "She", "Harry Styles", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (13, "Constellations", "Jade LeMac", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (14, "Smokin Out The Window", "Bruno Mars", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (15, "1 step forward, 3 steps back", "Olivia Rodrigo", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (16, "Roll The Dice", "Haley Reinhart", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (17, "Adore You", "Harry Styles", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (18, "Soldier of Love", "Pearl Jam", "Rock");
+INSERT INTO firstSpotify_wrapped VALUES (19, "My Favorite Part", "Mac Miller", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (20, "Don't Know How to Love You", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (21, "Only Angel", "Harry Styles", "Pop Rock");
+INSERT INTO firstSpotify_wrapped VALUES (22, "I Wanna Run", "Suzy Jones", "Singer-Songwriter");
+INSERT INTO firstSpotify_wrapped VALUES (23, "Moral of the Story", "Ashe", "Alternative");
+INSERT INTO firstSpotify_wrapped VALUES (24, "Heather", "Tate McRae", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (25, "Falling", "Harry Styles", "Pop Soul");
+INSERT INTO firstSpotify_wrapped VALUES (26, "Tonight", "Suzy Jones", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (27, "traitor", "Olivia Rodrigo", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (28, "Easy", "Demi Lovato", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (29, "Cherry", "Harry Styles", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (30, "You Don't Own Me", "SAYGRACE", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (31, "Happier Than Ever", "Billie Eilish", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (32, "Slow Dance", "Kelly Clarkson", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (33, "Best Thing I Never Had", "Beyonce", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (34, "Woman", "Doja Cat", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (35, "Dinero", "Trinidad Cardona", "Latin Pop");
+INSERT INTO firstSpotify_wrapped VALUES (36, "Don't Take Me Home", "Tori Kelly", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (37, "BENDICIONES", "Bad Bunny", "Reggaeton");
+INSERT INTO firstSpotify_wrapped VALUES (38, "Baby Doll", "Haley Reinhart", "Pop Soul");
+INSERT INTO firstSpotify_wrapped VALUES (39, "Final Piece", "Suzy Jones", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (40, "Ever Since New York", "Harry Styles", "Soft Rock");
+INSERT INTO firstSpotify_wrapped VALUES (41, "Conversations in the Dark", "John Legend", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (42, "Deep Water", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (43, "Work Song", "Hozier", "Blues");
+INSERT INTO firstSpotify_wrapped VALUES (44, "Keep Ya Head Up", "2Pac", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (45, "Kissing Other People", "Lennon Stella", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (46, "Como La Flor", "Selena", "Tejano Cumbia");
+INSERT INTO firstSpotify_wrapped VALUES (47, "Lay It Down", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (48, "brutal", "Olivia Rodrigo", "Pop Rock");
+INSERT INTO firstSpotify_wrapped VALUES (49, "pov", "Ariana Grande", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (50, "6AM", "Suzy Jones", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (51, "Deity", "Valeree", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (52, "Met Him Last Night", "Demi Lovato", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (53, "Some Way Some How", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (54, "Easy On Me", "Adele", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (55, "From Eden", "Hozier", "Blues");
+INSERT INTO firstSpotify_wrapped VALUES (56, "Almost Is Never Enough", "Ariana Grande", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (57, "Y", "Citizen Queen", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (58, "Cry Baby", "Demi Lovato", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (59, "Cherry Wine", "Hozier", "Indie Folk");
+INSERT INTO firstSpotify_wrapped VALUES (60, "Bruises", "Lewis Capaldi", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (61, "She Don't Like Boys", "Aryia", "Alt Rock");
+INSERT INTO firstSpotify_wrapped VALUES (62, "just like you", "Annika Rose", "Singer-Songwriter");
+INSERT INTO firstSpotify_wrapped VALUES (63, "Need to Know", "Doja Cat", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (64, "Remember Me", "Fawn Wood", "Cree Round Dance");
+INSERT INTO firstSpotify_wrapped VALUES (65, "Consequences", "Camila Cabello", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (66, "Broken Record", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (67, "enough for you", "Olivia Rodrigo", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (68, "Two Ghosts", "Harry Styles", "Soft Rock");
+INSERT INTO firstSpotify_wrapped VALUES (69, "Cinderella", "Mac Miller", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (70, "this is how i learn to say no", "EMELINE", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (71, "Crack the Code", "Haley Reinhart", "Alternative");
+INSERT INTO firstSpotify_wrapped VALUES (72, "Jerome", "Lizzo", "Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (73, "Forgetting You", "Cam", "Country");
+INSERT INTO firstSpotify_wrapped VALUES (74, "Everywhere I Go", "Hollywood Undead", "Alt Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (75, "Lost Cause", "Billie Eilish", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (76, "Oh Damn", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (77, "Love Me Like I Love You", "Nana M. Rose", "Singer-Songwriter");
+INSERT INTO firstSpotify_wrapped VALUES (78, "Will You Still Love Me Tomorrow?", "Amy Winehouse", "Pop Soul");
+INSERT INTO firstSpotify_wrapped VALUES (79, "Son of a Matriarch", "Snotty Nose Rez Kids", "Native Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (80, "Rie y Llora", "Celia Cruz", "Salsa");
+INSERT INTO firstSpotify_wrapped VALUES (81, "Turn on My Brain", "Shiadanni", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (82, "You Know I'm No Good", "Amy Winehouse", "Blues");
+INSERT INTO firstSpotify_wrapped VALUES (83, "get between it", "Nxdia", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (84, "Glad", "Tori Kelly", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (85, "Young & Sad", "Noah Cyrus", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (86, "Slumber Party", "Ashnikko", "Alt Hip Hop");
+INSERT INTO firstSpotify_wrapped VALUES (87, "Sign of the Times", "Harry Styles", "Pop Rock");
+INSERT INTO firstSpotify_wrapped VALUES (88, "How Dare You", "Haley Reinhart", "Alternative");
+INSERT INTO firstSpotify_wrapped VALUES (89, "De Una Vez", "Selena Gomez", "Latin Pop");
+INSERT INTO firstSpotify_wrapped VALUES (90, "Good Place", "Demi Lovato", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (91, "Fine Line", "Harry Styles", "Pop Rock");
+INSERT INTO firstSpotify_wrapped VALUES (92, "Honey, There's the Door", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (93, "Buscando Amor", "Selena Gomez", "Latin Pop");
+INSERT INTO firstSpotify_wrapped VALUES (94, "I'll Put It in a Song", "Suzy Jones", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (95, "Sweet Creature", "Harry Styles", "Soft Rock");
+INSERT INTO firstSpotify_wrapped VALUES (96, "Lo-Fi Soul", "Haley Reinhart", "Alt Pop");
+INSERT INTO firstSpotify_wrapped VALUES (97, "R.E.M.", "Ariana Grande", "Pop");
+INSERT INTO firstSpotify_wrapped VALUES (98, "Breathe Again", "Suzy Jones", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (99, "Stay", "Rihanna", "R&B");
+INSERT INTO firstSpotify_wrapped VALUES (100, "Baila Conmigo", "Selena Gomez", "Reggaeton");
+
+
+
+/* Create a table for 2022 Spotify top songs */
+CREATE TABLE spotify_wrapped (
+id INTEGER PRIMARY KEY,
+name TEXT,
+artist TEXT,
+genre TEXT);
+
+INSERT INTO spotify_wrapped VALUES (1, "Me Porto Bonito", "Bad Bunny", "Reggaeton");
+INSERT INTO spotify_wrapped VALUES (2, "Selfish", "Madison Beer", "Pop");
+INSERT INTO spotify_wrapped VALUES (3, "cult leader", "KING MALA", "Alternative");
+INSERT INTO spotify_wrapped VALUES (4, "Titi Me Pregunto", "Bad Bunny", "Reggaeton");
+INSERT INTO spotify_wrapped VALUES (5, "Despues de la Playa", "Bad Bunny", "Merengue");
+INSERT INTO spotify_wrapped VALUES (6, "Hard Place", "H.E.R.", "R&B");
+INSERT INTO spotify_wrapped VALUES (7, "Fingers Crossed", "Lauren Spencer Smith", "Pop");
+INSERT INTO spotify_wrapped VALUES (8, "Daisy", "Ashnikko", "alt Hip Hop");
+INSERT INTO spotify_wrapped VALUES (9, "Figures", "Jessie Reyez", "R&B");
+INSERT INTO spotify_wrapped VALUES (10, "Boyfriend", "Dove Cameron", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (11, "Lost Cause", "Billie Eilish", "Alternative");
+INSERT INTO spotify_wrapped VALUES (12, "Invitation", "Ashnikko", "Alt Hip Hop");
+INSERT INTO spotify_wrapped VALUES (13, "Reckless", "Madison Beer", "Pop");
+INSERT INTO spotify_wrapped VALUES (14, "For Granted", "Lauren Spencer Smith", "Pop");
+INSERT INTO spotify_wrapped VALUES (15, "First Class", "Jack Harlow", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (16, "Best Part", "Daniel Caesar", "R&B");
+INSERT INTO spotify_wrapped VALUES (17, "better off", "Ariana Grande", "R&B");
+INSERT INTO spotify_wrapped VALUES (18, "Explicale", "Yandel", "Reggaeton");
+INSERT INTO spotify_wrapped VALUES (19, "THE SNAKE", "Lana Lubany", "Arab Pop");
+INSERT INTO spotify_wrapped VALUES (20, "she knows it", "Maggie Lindemann", "Alternative");
+INSERT INTO spotify_wrapped VALUES (21, "Wicked Games", "Kiana Lede", "R&B");
+INSERT INTO spotify_wrapped VALUES (22, "Yo No Soy Celoso", "Bad Bunny", "Latin Pop");
+INSERT INTO spotify_wrapped VALUES (23, "Tantrum", "Ashnikko", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (24, "Red Rock Woman", "Young Spirit", "Powwow");
+INSERT INTO spotify_wrapped VALUES (25, "Girls", "Beastie Boys", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (26, "mercy", "KING MALA", "Alternative");
+INSERT INTO spotify_wrapped VALUES (27, "Little Boy", "Ashnikko", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (28, "More Than a Friend", "girli", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (29, "Not Nice", "Megan Thee Stallion", "Rap");
+INSERT INTO spotify_wrapped VALUES (30, "Vicious", "Sabrina Carpenter", "Pop");
+INSERT INTO spotify_wrapped VALUES (31, "Baby", "Madison Beer", "Pop");
+INSERT INTO spotify_wrapped VALUES (32, "Your Power", "Billie Eilish", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (33, "My Favorite Part", "Mac Miller", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (34, "forever fifteen", "MOTHICA", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (35, "The Weekend - Funk Wav Remix", "SZA", "R&B");
+INSERT INTO spotify_wrapped VALUES (36, "Talia", "King Princess", "Pop");
+INSERT INTO spotify_wrapped VALUES (37, "Wheelie", "Latto", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (38, "The Spins", "Mac Miller", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (39, "nasty", "Ariana Grande", "R&B");
+INSERT INTO spotify_wrapped VALUES (40, "Tarot", "Bad Bunny", "Reggaeton");
+INSERT INTO spotify_wrapped VALUES (41, "Get You", "Daniel Caesar", "R&B");
+INSERT INTO spotify_wrapped VALUES (42, "BEFORE LOVE CAME TO KILL US", "Jessie Reyez", "R&B");
+INSERT INTO spotify_wrapped VALUES (43, "Carolina", "Harry Styles", "Pop");
+INSERT INTO spotify_wrapped VALUES (44, "Neverita", "Bad Bunny", "Trap Latino");
+INSERT INTO spotify_wrapped VALUES (45, "Plan B", "Megan Thee Stallion", "Rap");
+INSERT INTO spotify_wrapped VALUES (46, "just a boy", "Alaina Castillo", "Pop");
+INSERT INTO spotify_wrapped VALUES (47, "I AM WOMAN", "Emmy Meli", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (48, "Venom", "Little Simz", "UK Hip Hop");
+INSERT INTO spotify_wrapped VALUES (49, "Bestie", "DaBaby", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (50, "Un Ratito", "Bad Bunny", "Trap Latino");
+INSERT INTO spotify_wrapped VALUES (51, "Knife Under My Pillow", "Maggie Lindemann", "Pop Rock");
+INSERT INTO spotify_wrapped VALUES (52, "INDUSTRY BABY", "Lil Nas X", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (53, "You & Jennifer", "bulow", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (54, "Efecto", "Bad Bunny", "Reggaeton");
+INSERT INTO spotify_wrapped VALUES (55, "Hi, it's Me", "Ashnikko", "Alt Hip Hop");
+INSERT INTO spotify_wrapped VALUES (56, "upside", "MOTHICA", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (57, "Ta reine", "Angele", "French Pop");
+INSERT INTO spotify_wrapped VALUES (58, "MUTUAL FRIEND", "Jessie Reyez", "R&B");
+INSERT INTO spotify_wrapped VALUES (59, "Georgia On My Mind", "Allen Stone", "R&B");
+INSERT INTO spotify_wrapped VALUES (60, "Until I Think Of You", "Tori Kelly", "Pop");
+INSERT INTO spotify_wrapped VALUES (61, "GOOD FOR HER", "MOTHICA", "Pop Rock");
+INSERT INTO spotify_wrapped VALUES (62, "DO YOU LOVE HER", "Jessie Reyez", "R&B");
+INSERT INTO spotify_wrapped VALUES (63, "This Is Why I'm Hot", "Kailee Morgue", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (64, "Lil Secret", "Jack Harlow", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (65, "You Know I'm No Good", "Amy Winehouse", "Blues");
+INSERT INTO spotify_wrapped VALUES (66, "martyr", "KING MALA", "Alternative");
+INSERT INTO spotify_wrapped VALUES (67, "De Una Vez", "Selena Gomez", "Latin Pop");
+INSERT INTO spotify_wrapped VALUES (68, "decode", "Sabrina Carpenter", "Pop");
+INSERT INTO spotify_wrapped VALUES (69, "Everything", "Ella Mai", "R&B");
+INSERT INTO spotify_wrapped VALUES (70, "mercy", "KING MALA", "Alternative");
+INSERT INTO spotify_wrapped VALUES (71, "Slumber Party", "Ashnikko", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (72, "July", "Noah Cyrus", "Pop");
+INSERT INTO spotify_wrapped VALUES (73, "Flowers", "Lauren Spencer Smith", "Pop");
+INSERT INTO spotify_wrapped VALUES (74, "Megan's Piano", "Megan Thee Stallion", "Rap");
+INSERT INTO spotify_wrapped VALUES (75, "My Band", "D12", "Rap");
+INSERT INTO spotify_wrapped VALUES (76, "6AM", "Suzy Jones", "R&B");
+INSERT INTO spotify_wrapped VALUES (77, "Panic Vertigo", "The Wrecks", "Alt Rock");
+INSERT INTO spotify_wrapped VALUES (78, "Honeymoon Fades", "Sabrina Carpenter", "R&B");
+INSERT INTO spotify_wrapped VALUES (79, "Vegas", "Doja Cat", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (80, "i could have been worse", "KING MALA", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (81, "Is It Bad", "Cierra Ramirez", "Latin Pop");
+INSERT INTO spotify_wrapped VALUES (82, "This Love", "Camila Cabello", "Pop");
+INSERT INTO spotify_wrapped VALUES (83, "favorite crime", "Olivia Rodrigo", "Pop");
+INSERT INTO spotify_wrapped VALUES (84, "Envolver", "Anitta", "Reggaeton");
+INSERT INTO spotify_wrapped VALUES (85, "34+35", "Ariana Grande", "R&B");
+INSERT INTO spotify_wrapped VALUES (86, "Celia", "Camila Cabello", "Latin Pop");
+INSERT INTO spotify_wrapped VALUES (87, "Good Cry", "Noah Cyrus", "Pop");
+INSERT INTO spotify_wrapped VALUES (88, "As It Was", "Harry Styles", "Pop");
+INSERT INTO spotify_wrapped VALUES (89, "sloppy", "KING MALA", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (90, "Comfortable", "H.E.R.", "R&B");
+INSERT INTO spotify_wrapped VALUES (91, "Need to Know", "Doja Cat", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (92, "needy", "Ariana Grande", "R&B");
+INSERT INTO spotify_wrapped VALUES (93, "golden retriever boy", "KING MALA", "Alternative");
+INSERT INTO spotify_wrapped VALUES (94, "Lilith", "Ellise", "Alt Pop");
+INSERT INTO spotify_wrapped VALUES (95, "STUPID", "Ashnikko", "Hip Hop");
+INSERT INTO spotify_wrapped VALUES (96, "Liquid Courage", "Cierra Ramirez", "Latin Pop");
+INSERT INTO spotify_wrapped VALUES (97, "Give Me", "KING MALA", "Alternative");
+INSERT INTO spotify_wrapped VALUES (98, "Keep Driving", "Harry Styles", "Pop Rock");
+INSERT INTO spotify_wrapped VALUES (99, "Come on over Baby", "Christina Aguilera", "Pop");
+INSERT INTO spotify_wrapped VALUES (100, "Me & Mr Jones", "Amy Winehouse", "UK R&B");
+
+/* Display both tables */
+SELECT * FROM firstSpotify_wrapped;
+SELECT * FROM spotify_wrapped;
+
+/* Display artist and name of songs that have a type of pop genre */
+SELECT * FROM firstSpotify_wrapped WHERE genre LIKE "%Pop%";
+SELECT * FROM spotify_wrapped WHERE genre LIKE "%Pop%";
+
+/* Are there any songs that are in both tables? */
+SELECT firstSpotify_wrapped.name, firstSpotify_wrapped.artist FROM firstSpotify_wrapped JOIN spotify_wrapped ON firstSpotify_wrapped.name = spotify_wrapped.name AND firstSpotify_wrapped.artist = spotify_wrapped.artist; 
+
+/* Which genres occur in each table? Order them from most to least */
+SELECT genre, COUNT(*) FROM firstSpotify_wrapped GROUP BY genre ORDER BY COUNT(*) DESC;
+SELECT genre, COUNT(*) FROM spotify_wrapped GROUP BY genre ORDER BY COUNT(*) DESC;
+
+/* For each table, create a category for most listened, average, and least listened genre. Label it listening_behavior */
+SELECT artist, name, genre, COUNT(genre),
+    CASE 
+        WHEN COUNT(genre) > 17 THEN "most_listened"
+        WHEN COUNT(genre) > 8 THEN "average"
+        ELSE "least_listened"
+    END as listening_behavior
+FROM firstSpotify_wrapped
+GROUP BY genre; 
+SELECT artist, name, genre, COUNT(genre),
+    CASE 
+        WHEN COUNT(genre) > 10 THEN "most_listened"
+        WHEN COUNT(genre) > 4 THEN "average"
+        ELSE "least_listened"
+    END as listening_behavior
+FROM spotify_wrapped
+GROUP BY genre; 
+
+/* How many times is each artist listed in each table? */
+SELECT artist, COUNT(artist) FROM firstSpotify_wrapped GROUP BY artist;
+SELECT artist, COUNT(artist) FROM spotify_wrapped GROUP BY artist;
+
+/* Create a table of artists who were listed more than 5 times in either table or between the two tables combined. Include the artist, number of times mentioned, primary genre, and indicate which table (or both) */
+CREATE TABLE repeat_artists (
+id INTEGER PRIMARY KEY,
+artist TEXT,
+times_mentioned INTEGER,
+primary_genre TEXT,
+wrapped TEXT);
+
+INSERT INTO repeat_artists VALUES (1, "Ariana Grande", 7, "Pop", "both");
+INSERT INTO repeat_artists VALUES (2, "Ashnikko", 9, "Alt Hip Hop", "both");
+INSERT INTO repeat_artists VALUES (3, "Bad Bunny", 9, "Reggaeton", "both");
+INSERT INTO repeat_artists VALUES (4, "Haley Reinhart", 12, "Pop Soul", "first");
+INSERT INTO repeat_artists VALUES (5, "Harry Styles", 16, "Pop", "both");
+INSERT INTO repeat_artists VALUES (6, "KING MALA", 8, "Alternative", "second");
+INSERT INTO repeat_artists VALUES (7, "Suzy Jones", 8, "R&B", "both");
+
+/* How many times was an artist listed from the repeat_artists table in the pop genre? */
+SELECT TOTAL(times_mentioned) FROM repeat_artists WHERE primary_genre = "Pop"; 
+
+/* How many times was an artist listed from the repeat_artists table in an alternative or alt-style genre? */
+SELECT TOTAL(times_mentioned) FROM repeat_artists WHERE primary_genre LIKE "%Alt%";
+
+/* Which artists from the repeat_artists table were in both of the wrapped tables? */
+SELECT artist FROM repeat_artists WHERE wrapped = "both";
+
+/* Display artists from the repeat_artists table along with their primary genre and the genre from firstSpotify_wrapped and spotify_wrapped. Make sure every artist from repeat_artists is included */
+SELECT repeat_artists.artist, primary_genre, firstSpotify_wrapped.genre as first_genre, spotify_wrapped.genre as second_genre FROM repeat_artists LEFT OUTER JOIN firstSpotify_wrapped ON repeat_artists.artist = firstSpotify_wrapped.artist LEFT OUTER JOIN spotify_wrapped ON repeat_artists.artist = spotify_wrapped.artist GROUP BY repeat_artists.artist;
